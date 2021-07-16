@@ -1,0 +1,67 @@
+.kalkulator {
+    width: 300px;
+    background-color: rgb(160, 158, 158);
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div {
+    display: block;
+    
+}
+
+#layer {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(153, 152, 152);
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+}
+
+.container-tombol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol:nth-child(4n+1) {
+    border-left: 1px solid #7e7e7e;
+}
+
+.tombol:hover {
+    background-color: rgb(124, 124, 124);
+    cursor: pointer;
+}
+
+.tombol {
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+    border: 1px solid #7e7e7e;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+}
+
+.nol {
+    flex-grow: 1;
+}
+
+.sama {
+    background-color: orange;
+}
+.sama:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+.op {
+    background-color: rgb(117, 117, 117);
+}
